@@ -31,3 +31,9 @@ body>div~p{
 body>div+p{
     background-color: blue;
 }
+ul{
+    list-style-type: lower-alpha;
+}
+a:link{
+    text-decoration: none;
+}
