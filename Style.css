@@ -4,3 +4,30 @@
 .class1{
     font-size: 30px;
 }
+a[href*="fast"]{
+    color: #ffa9ba
+}
+a[href$=".html"]{
+    color: #3bff12;
+}
+a[href^="http://beta.speedtest.net/sv"]{
+    color: #ff050f
+}
+a[href*="bred"]{
+    color: #b104ff;
+}
+h1{
+    background-color: darkgrey;
+}
+body p{
+    background-color: #ff050f;
+}
+body>div>p{
+    background-color: green;
+}
+body>div~p{
+    background-color: yellow;
+}
+body>div+p{
+    background-color: blue;
+}
