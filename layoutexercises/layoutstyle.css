@@ -1,0 +1,74 @@
+body {
+    margin:0;
+    height:auto;
+   
+}
+body > header:first-child {
+    display: flex;
+    background-color: peachpuff;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+body > nav:first-of-type {
+background-color: lightskyblue;
+}
+body > nav:first-of-type > ul{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+body > nav:first-of-type > ul > li{
+    border-left: solid 1px black;
+    padding: 5px 15px;
+}
+body > nav:first-of-type > ul > li:nth-child(5) {
+    border-right: solid 1px black;
+}
+body > nav:first-of-type > ul > li > a{
+    text-decoration: none;
+}
+main {
+    float: left;
+    margin-left:15%;
+    margin-bottom: 75px;
+    width:40%;
+}
+article > figure {
+    float: left;
+}
+article > figure > img{
+    width: 100px;
+    height: 100px;
+}
+aside {
+    float: right;
+    margin-right: 15%;
+    width: 40%;
+}
+aside > header > h3{
+    margin-left: 9%;
+}
+aside > figure > img {
+    width: 150px;
+    height: 150px;
+}
+footer {
+    height: auto;
+    background-color: pink;
+    clear: both;
+}
+footer > nav > ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+footer > nav > ul > li {
+    padding: 55px 55px;
+}
+footer > nav > ul > li > a {
+    text-decoration: none;
+}
